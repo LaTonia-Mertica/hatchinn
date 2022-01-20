@@ -8,6 +8,10 @@ img {
   border-top-right-radius: 15%;
   border-bottom-left-radius: 15%;
 }
+span.hover:hover {
+  color: turquoise;
+  font-size: 7.5rem;
+}
 h1 {
   color: deeppink;
   font-family: Impact;

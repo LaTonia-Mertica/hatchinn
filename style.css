@@ -1,38 +1,26 @@
 /* SET BODY MARGIN TO ZERO FOR FULL FLUSH IMAGE LEFT */
 body {
   margin: 0;
+  background-image: linear-gradient(67deg, dodgerblue, linen, darkblue);
 }
 img {
   z-index: -3;
-}
-/* NEXT 2 CODE BLOCKS FOR GRADIENT ON IMG */
-.img-gradient {
-  position: relative;
-}
-.img-gradient::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 60%;
-  height: 100%;
-  background: linear-gradient(
-    to bottom right,
-    rgba(30, 144, 255, 0.5),
-    rgba(0, 0, 54.5, 0.7)
-  );
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
 }
 h1 {
-  color: darkblue;
+  color: deeppink;
   font-family: Impact;
   font-size: 7rem;
   z-index: 1;
+  width: 100%;
 
   position: absolute;
-  top: 7.5rem;
-  left: 50.75rem;
+  top: 8rem;
+  padding-left: 37%;
 
-  text-shadow: 0.105rem 0 dodgerblue;
+  text-shadow: 0.105rem 0 #7ffff0;
+  border-top: 0.025rem solid #7ffff0;
 }
 a {
   text-decoration: none;
@@ -43,20 +31,20 @@ a {
 .pDivText {
   text-align: justify;
   position: absolute;
-  top: 2rem;
+  top: 1rem;
   left: 63rem;
   right: 3rem;
 }
 ul {
   text-align: justify;
-  margin-top: 4rem;
+  margin-top: 4.5rem;
   position: absolute;
   top: 17.5rem;
   left: 62rem;
   right: 3rem;
 }
 li::marker {
-  color: dodgerblue;
+  color: #7ffff0;
 }
 h2 {
   color: whitesmoke;
@@ -79,11 +67,15 @@ h2 {
   width: 11rem;
 }
 table {
-  border: 0.05rem solid darkblue;
+  border: 0.05rem solid deeppink;
   position: absolute;
-  top: 29.5rem;
+  top: 30.5rem;
   left: 63rem;
   width: 11rem;
+}
+th {
+  color: #7ffff0;
+  text-shadow: 0.05rem 0 darkslategrey;
 }
 th,
 td {
